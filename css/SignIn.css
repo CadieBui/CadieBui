@@ -1,0 +1,270 @@
+* {
+    font-family: Rockwell;
+}
+
+body {
+    display: inline;
+    height: 100%;
+}
+
+#left,
+#right {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 65%;
+    height: 80%;
+    background-color: #FFFFFF;
+    /*    display: inline;*/
+    position: absolute;
+    margin: 100px auto;
+    /*    overflow-x: hidden;*/
+}
+
+.main>.title2 {
+    width: 600px;
+    margin: 0 auto;
+}
+
+
+/* vvvvvvvvvvvvvv Sign in排版vvvvvvvvvvvv */
+
+.main>.title1 {
+    margin: auto;
+    width: 200px;
+    height: 70px;
+    background-color: #95D5B2;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.title1>p {
+    font-size: 50px;
+    display: inline;
+    color: #FFFFFF;
+}
+
+#sighinform {
+    width: 610px;
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+#pid,
+#sinpsw {
+    width: 60%;
+    font-size: 46px;
+    background-image: linear-gradient(to right, #A9E5CE, #B7E4C7);
+    border-radius: 15px;
+    margin: 10px;
+}
+
+#sighinform>label {
+    margin: auto;
+    font-size: 36px;
+}
+
+#sighinform>a {
+    font-size: 21px;
+    float: right;
+    padding: 10px 160px 10px 0px;
+}
+
+#signinbtn {
+    width: 150px;
+    height: 60px;
+    color: #74C69D;
+    background-color: #F2F2F2;
+    font-size: 28px;
+    border-radius: 30px;
+    border-color: #BFBFBF;
+    border-style: solid;
+    margin: 20px 120px;
+    cursor: pointer;
+}
+
+
+/* ^^^^^^^^^^^ Sign in排版 ^^^^^^^^^^^^^ */
+
+
+/* vvvvvvvvvvv Welcome to Unlock your road排版 vvvvvvvvvvvvvvvvvvv */
+
+.change {
+    width: 35%;
+    height: 96%;
+    display: inline;
+    position: absolute;
+    background-image: linear-gradient(to right, #95D5B2, #B6E4C7);
+}
+
+.change>div>h2 {
+    display: inline;
+    font-size: 45px;
+    text-align: center;
+    margin: auto;
+    margin-left: 5%;
+}
+
+.change>div>p {
+    margin-top: 70px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+.change>div>.wel {
+        margin-left: -6%;
+    }
+
+
+.change>div {
+    margin: 60px;
+    margin-top: 25%;
+    text-align: center;
+}
+
+#signbtn1,
+#signbtn2 {
+    width: 200px;
+    height: 60px;
+    color: #000;
+    background-color: #a3dbbb00;
+    border-radius: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-left: 20%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    cursor: pointer;
+}
+
+#signbtn2 {
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+
+/* ^^^^^^^^^^^^^^^^ Welcome to Unlock your road排版 ^^^^^^^^^^^^^^^^^^^^ */
+
+
+/* vvvvvvvvvvvvvvv Create Account排版 vvvvvvvvvvvvvvvvvvv */
+
+.title2 {
+    margin: auto;
+    text-align: center;
+}
+
+.title2>p {
+    font-size: 45px;
+    display: inline;
+    color: #1B4332;
+    font-weight: bold;
+}
+
+table>tr {
+    margin: auto;
+}
+
+table {
+    margin: auto;
+}
+
+#pname,
+#cny,
+#btd,
+#suppsw,
+#eml {
+    width: 300px;
+    height: 50px;
+    font-size: 24px;
+    background-image: linear-gradient(to right, #A9E5CE, #B7E4C7);
+    border-radius: 15px;
+    margin: 10px;
+}
+
+table>tr {
+    margin: auto;
+    font-size: 24px;
+}
+
+#signupbtn {
+    width: 150px;
+    height: 60px;
+    color: #74C69D;
+    background-color: #F2F2F2;
+    font-size: 28px;
+    border-radius: 30px;
+    border-color: #BFBFBF;
+    border-style: solid;
+    margin: 15px;
+    margin-left: 78%;
+}
+
+
+/* ^^^^^^^^^^^^^^^^ Create Account排版 ^^^^^^^^^^^^^^^^^^^^ */
+
+
+/* div靠右 */
+
+.right {
+    right: 0;
+}
+
+
+/* div靠左 */
+
+.left {
+    left: 0;
+}
+
+
+/* 顏色 */
+
+#greencolor {
+    color: #007F5F;
+}
+
+.greencolr2 {
+    color: #1B4332;
+}
+
+.greencolr3 {
+    color: #2D6A4F;
+}
+
+.whitecolor {
+    color: #FFFFFF;
+}
+
+.yellowcolor {
+    color: #D4D700;
+}
+
+.yellowcolor1 {
+    color: #DDDF00;
+}
+
+#greencolor1 {
+    color: #52B788;
+}
+
+.trans {
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    position: absolute;
+    transition: all 1s ease;
+    overflow: hidden;
+}
+
+#gdr1,
+#gdr2s {
+    width: 40px;
+}

@@ -1,0 +1,92 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+#header {
+    width: 100%;
+    height: 200px;
+    background-color: #95d5b2;
+}
+
+/* #Canvas {
+    width: 100%;
+    height: 400px;
+} */
+/* 
+#user_name {
+    background-color: #95d5b2;
+    border-radius: 15px;
+    width: 100px;
+    border: 4px solid #84c09f;
+    position: relative;
+    margin: 0 auto;
+    padding: 10px;
+    top: 180px;
+    text-align: center;
+    /* left: 42%; */
+/* } */ */
+
+/* #user_headshot {
+    border-radius: 100%;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 55px;
+    /* margin: 0 auto; */
+    /* left: 46.5%; */
+/* } */ */
+
+#user_img {
+    height: 400px;
+}
+
+#user_data,#infor_done {
+    background-color: #DDE7C7;
+}
+
+#user_data>form ,#infor_done>form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#user_data>form>div,#infor_done>form>div {
+    padding: 10px;
+}
+
+#img1 {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: 25%;
+    left: 15%;
+    border: 1px solid black;
+}
+
+#img2 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -10%;
+    left: 55%;
+    border: 1px solid black;
+}
+
+#img3 {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    top: -85%;
+    left: 75%;
+    border: 1px solid black;
+}
+
+/* #user_img>input {
+    position: relative;
+    top: 80%;
+    left: 43%;
+} */
+
+form>div{
+    border-left: 1px solid rgb(66, 66, 66);
+}
+

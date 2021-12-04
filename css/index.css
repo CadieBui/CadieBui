@@ -1,0 +1,1058 @@
+/* main div 1的img */
+
+#pic {
+    width: 100%;
+    height: 80%;
+}
+
+
+/* =========================================================================================*/
+/* main div 1的img */
+
+#pic {
+    width: 100%;
+    height: 500px;
+}
+
+
+/* =========================================================================================*/
+
+
+/* main div 2的第一張img */
+
+#mulpic {
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+
+/* main div 2的第二張img */
+
+#mulpic1 {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    position: relative;
+    display: block;
+    margin-left: 20px;
+}
+
+
+/* main div 2放照片的版面 */
+
+.slogan {
+    background-color: #f0e7e2;
+    width: 100%;
+    height: 500px;
+}
+
+
+/* =========================================================================================*/
+
+
+/*main div 1,2的name  */
+
+#name {
+    margin: 2px;
+    font-family: "Rockwell";
+    padding-top: 0px;
+    padding-left: 15px;
+}
+
+
+/*main div 1,2的place  */
+
+#place {
+    margin: 1px;
+    font-style: unset;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    padding: 16px;
+}
+
+
+/*main div 1,2的name跟place div  */
+
+.namediv {
+    height: 150px;
+}
+
+
+/*main div 1,2的最下面一條顏色  */
+
+.color {
+    background-color: #95d5b2;
+    height: 10px;
+}
+
+
+/* main div 1,2 設定 */
+
+.main {
+    display: flex;
+    /* position: absolute; */
+    /* padding-top: 20px; */
+    width: 98%;
+    z-index: -1;
+    /* 排版的位置在後面  */
+    /* height: 80%; */
+}
+
+
+/* =========================================================================================*/
+
+
+/* main div 3 設定 */
+
+.main3 {
+    width: 100%;
+    margin: 0 auto;
+    /* height: 80%; */
+}
+
+
+/* main div 3的最上面的img */
+
+#picsmall {
+    /* width: 100%; */
+    margin-left: 10%;
+    /*    position: relative;*/
+    left: 10px;
+    width: 80%;
+    height: 100px;
+    background-size: 100%;
+    border: none;
+    background-color: black;
+    object-fit: cover;
+    object-position: 100% 0;
+}
+
+
+/* main div 3的右邊的img */
+
+#picdiv3 {
+    width: 15%;
+    height: 480px;
+    background: url(/img/9e3824d499cd4a341eb91bdc26c95360.jpg) repeat 0px;
+    background-size: cover;
+    right: 10.5%;
+    position: absolute;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+/*main div 3的information  */
+
+#information {
+    margin: 5px;
+    font-style: bold;
+    font-family: "Rockwell";
+    padding-top: 10px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+
+/*main div 3的information div  */
+
+.namediv3 {
+    height: 480px;
+    width: 100%;
+    background-color: #95d5b2;
+    /* margin: 0  auto; */
+    /* position: absolute; */
+}
+
+
+/* =========================================================================================*/
+
+
+/* main div 1,2,3 的版面 */
+
+.mainImg,
+.mainImg2,
+.mainImg3 {
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*========================================================================================  */
+
+
+/* button infor img 設定  */
+
+
+/* =========================================================================================*/
+
+
+/* button messenger img 設定  */
+
+#btnmesImg {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-size: 100%;
+    border: none;
+    border-radius: 50%;
+}
+
+
+/* button messenger img div 設定  */
+
+.btndivmes {
+    margin-right: 100px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    /* 排版的位置在最上面  */
+}
+
+
+/* =========================================================================================*/
+
+
+/* button right img 設定  */
+
+/* #btnright {
+    width: 22px;
+    height: 30px;
+    /* padding: 10px; */
+    /* background-size: 100%; */
+    /* border: none; */
+    /* margin: 0 auto; */
+    /* margin-left: 92%; */
+
+/* } */ 
+
+
+/* button right img div 設定  */
+
+/* .btndivright { */
+    /* margin-right: 70px;
+    margin-top: 250px;
+    position: absolute;
+    right: 0;
+    z-index: 2; */
+    /* 排版的位置在最上面  */
+/* } */
+
+
+/* =========================================================================================*/
+
+
+/* button left img 設定  */
+
+/* #btnleft {
+    width: 22px;
+    height: 30px;
+    padding: 10px;
+    background-size: 100%;
+    border: none;
+} */
+
+
+/* button left img div 設定  */
+
+/* .btndivleft {
+    margin-left: 70px;
+    margin-top: 250px;
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    /* 排版的位置在最上面  */
+/* }  */
+
+
+/* =========================================================================================*/
+
+
+/* button down img 設定  */
+
+#btndown {
+    width: 22px;
+    height: 30px;
+    padding: 10px;
+    background-size: 100%;
+    border: none;
+}
+
+
+/* button down img div 設定  */
+
+.btndivdown {
+    margin-left: 47%;
+    margin-top: 70px;
+    position: absolute;
+}
+
+
+/* =========================================================================================*/
+
+
+/* button up img 設定  */
+
+/* #btnup {
+    width: 22px;
+    height: 30px;
+    padding: 10px;
+    background-size: 100%;
+    border: none;
+    position: relative;
+    bottom: -55px;
+} */
+
+
+/* button up img div 設定  */
+
+.btndivup {
+    /* margin-left: 47%; */
+    /* margin-top: 560px; */
+    /* position: absolute; */
+    z-index: 2;
+    /* 排版的位置在最上面  */
+}
+
+
+/* =========================================================================================*/
+
+
+/* button infor img 跟 button messenger img hover 設定  */
+/* 
+#btnmesImg:hover,
+#btninforImg:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+} */
+
+
+/* button 箭頭型 hover 設定  */
+/* 
+#btnright:hover,
+#btnleft:hover,
+#btndown:hover,
+#btnup:hover {
+    cursor: pointer;
+} */
+
+.chat {
+    width: 80%;
+    /* margin: auto 0; */
+    left: 0;
+    position: absolute;
+    /* display: flex; */
+}
+
+.listChat {
+    width: 20%;
+    height: 94%;
+    background-color: rgb(183, 228, 199);
+    border: 1px solid black;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.move_right {
+    position: absolute;
+    right: 18%;
+}
+
+.move_down_up {
+    position: absolute;
+    left: -10%;
+}
+
+.scale_main3 {
+    width: 80%;
+    left: -7%;
+    position: relative;
+}
+
+.chat_history {
+    height: 30px;
+    background-color: #95d5b2;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    /* position: relative; */
+    /* top: -6%; */
+    width: 73%;
+    left: 10%;
+    visibility: hidden;
+    float: left;
+}
+
+
+/* .chat_history_click {
+    visibility: visible;
+} */
+
+.chat_headshot {
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 100%;
+    position: relative;
+    top: 18px;
+    left: 5%;
+    float: left;
+}
+
+#LC_title {
+    padding: 10px;
+    text-align: center;
+}
+
+.chat_content {
+    width: 22%;
+    height: 400px;
+    background-color: rgb(183, 228, 199);
+    border: 1px solid black;
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+    border-radius: 10px;
+    /* visibility: hidden; */
+}
+
+.CCheadshot {
+    height: 25px;
+    float: left;
+}
+
+.CCName {
+    float: left;
+}
+
+.chat_content>div {
+    padding: 10px;
+}
+
+.CChistory {
+    height: 60%;
+    /* position: relative;
+    top: 30px; */
+    margin: 20px 5px 10px 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#Input {
+    width: 80%;
+    float: left;
+}
+
+#Enter {
+    width: 18%;
+    font-size: 6px;
+}
+
+.CCinput>div {
+    float: left;
+}
+
+.listChat_change {
+    visibility: visible;
+}
+
+
+/* ======================================================= */
+
+.likediv {
+    width: 320px;
+    height: 50px;
+    margin: auto;
+    position: relative;
+    top: -55px;
+    right: 2%;
+}
+
+#unlike>img,
+#like>img {
+    width: 30px;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+#unlike,
+#like {
+    display: inline;
+    width: 1000px;
+    height: 60px;
+    background-color: #95d5b2;
+    border: 2px solid #52B788;
+    border-radius: 30px;
+    margin: 50px;
+}
+
+td {
+    padding: 8px 15px;
+    font-size: 20px;
+}
+
+.main_IC {
+    /* position: absolute; */
+    top: 20%;
+    right: 50%;
+}
+
+.another_IC {
+    /* position: relative; */
+    top: 15%;
+    right: 0%;
+}
+
+.main_M3 {
+    /* position: absolute; */
+    top: 30%;
+    right: 59%;
+}
+
+.another_M3 {
+    position: relative;
+    /* top: 15%; */
+    right: -40%;
+}
+
+#ILW_content>div {
+    position: absolute;
+    width: 45%;
+    float: left;
+}
+
+/* main div 2的第一張img */
+
+#mulpic {
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+
+/* main div 2的第二張img */
+
+#mulpic1 {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    position: relative;
+    display: block;
+    margin-left: 20px;
+}
+
+
+/* main div 2放照片的版面 */
+
+.slogan {
+    background-color: #f0e7e2;
+    width: 100%;
+    height: 500px;
+}
+
+
+/* =========================================================================================*/
+
+
+/*main div 1,2的name  */
+
+#name {
+    margin: 2px;
+    font-family: "Rockwell";
+    padding-top: 0px;
+    padding-left: 15px;
+}
+
+
+/*main div 1,2的place  */
+
+#place {
+    margin: 1px;
+    font-style: unset;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    padding: 16px;
+}
+
+
+/*main div 1,2的name跟place div  */
+
+.namediv {
+    height: 140px;
+}
+
+
+/*main div 1,2的最下面一條顏色  */
+
+.color {
+    background-color: #95d5b2;
+    height: 10px;
+}
+
+
+/* main div 1,2 設定 */
+/* 
+.main {
+    width: 70%;
+    /* height: 73%; */
+    /* z-index: -1; */
+    /* margin: 0 auto; */
+    /* height: 90%; */
+    /* padding-top: 79px; */
+    /* 排版的位置在後面  */
+    /* height: 80%; */
+/* } */ 
+
+
+/* =========================================================================================*/
+
+
+/* main div 3 設定 */
+
+/* .main3 {
+    width: 100%;
+    margin: 0 auto;
+    height: 85%;
+} */
+
+
+/* main div 3的最上面的img */
+
+/* #picsmall {
+    width: 100%;
+    width: 100%;
+    height: 15%;
+    border: none;
+    background-color: black;
+    object-fit: cover;
+    object-position: 100% 0;
+} */
+
+
+/* main div 3的右邊的img */
+
+/* #picdiv3 {
+    width: 15%;
+    height: 480px;
+    /* background: url(/img/9e3824d499cd4a341eb91bdc26c95360.jpg) repeat 0px; */
+    /* background-size: cover;
+    right: 10.5%;
+    position: absolute;
+    background-attachment: fixed;
+    background-position: center;
+} */ 
+
+
+/*main div 3的information  */
+
+#information {
+    margin: 5px;
+    font-style: bold;
+    font-family: "Rockwell";
+    padding-top: 10px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+
+/*main div 3的information div  */
+
+/* .namediv3 {
+    height: 100%;
+    width: 100%;
+    background-color: #95d5b2;
+    /* margin: 0  auto; */
+    /* position: absolute; */
+/* } */ 
+
+
+/* =========================================================================================*/
+
+
+/* main div 1,2,3 的版面 */
+/* 
+.mainImg{
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    height: 80%;
+}
+
+.mainImg3 {
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    height: 80%;
+}
+.mainImg2
+{
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    height: 80%;
+} */
+
+/*========================================================================================  */
+
+
+/* button infor img 設定  */
+
+
+/* =========================================================================================*/
+
+
+/* button messenger img 設定  */
+
+#btnmesImg {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-size: 100%;
+    border: none;
+    border-radius: 50%;
+}
+
+
+/* button messenger img div 設定  */
+
+.btndivmes {
+    margin-right: 100px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    /* 排版的位置在最上面  */
+}
+
+
+/* =========================================================================================*/
+
+
+/* button right img 設定  */
+
+.btnright {
+    width: 22px;
+    height: 30px;
+    /* padding: 10px; */
+    /* background-size: 100%; */
+    /* border: none; */
+    /* margin: 0 auto; */
+    margin-left: 92%;
+
+
+}
+
+
+/* button right img div 設定  */
+
+.btndivright {
+    /* margin-right: 70px;
+    margin-top: 250px;
+    position: absolute;
+    right: 0; */
+    z-index: 2;
+    /* 排版的位置在最上面  */
+}
+
+
+/* =========================================================================================*/
+
+
+/* button left img 設定  */
+
+.btnleft {
+    width: 22px;
+    height: 30px;
+    padding: 10px;
+    background-size: 100%;
+    border: none;
+}
+
+
+/* button left img div 設定  */
+
+.btndivleft {
+    /* margin-left: 70px;
+    margin-top: 250px;
+    position: absolute; */
+    left: 0;
+    z-index: 2;
+    /* 排版的位置在最上面  */
+}
+
+
+/* =========================================================================================*/
+
+
+/* button down img 設定  */
+
+.btndown {
+    width: 35px;
+    height: 30px;
+    padding: 10px;
+    background-size: 100%;
+    border: none;
+}
+
+
+/* button down img div 設定  */
+
+.btndivdown {
+    margin-left: 47%;
+    margin-top: 70px;
+    position: absolute;
+    z-index: 2;
+}
+
+
+/* =========================================================================================*/
+
+
+/* button up img 設定  */
+
+.btnup {
+    width: 35px;
+    height: 30px;
+    padding: 10px;
+    /* background-size: 100%; */
+    border: none;
+    position: absolute;
+    /* bottom: 15%; */
+}
+
+
+/* button up img div 設定  */
+
+.btndivup {
+    /* margin-left: 47%; */
+    /* margin-top: 560px; */
+    /* position: absolute; */
+    z-index: 2;
+    /* 排版的位置在最上面  */
+}
+
+
+/* =========================================================================================*/
+
+
+/* button infor img 跟 button messenger img hover 設定  */
+
+#btnmesImg:hover,
+#btninforImg:hover,
+#btnlistImg:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+
+/* button 箭頭型 hover 設定  */
+
+.btnright:hover,
+.btnleft:hover,
+.btndown:hover,
+.btnup:hover {
+    cursor: pointer;
+}
+
+.chat {
+    width: 80%;
+    /* margin: auto 0; */
+    left: 0;
+    position: absolute;
+    /* display: flex; */
+}
+
+.listChat {
+    width: 20%;
+    height: 94%;
+    background-color: rgb(183, 228, 199);
+    border: 1px solid black;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.move_right {
+    position: absolute;
+    right: 18%;
+}
+
+.move_down_up {
+    position: absolute;
+    left: -10%;
+}
+
+.scale_main3 {
+    width: 80%;
+    left: -7%;
+    position: relative;
+}
+
+.chat_history {
+    height: 30px;
+    background-color: #95d5b2;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    /* position: relative; */
+    /* top: -6%; */
+    width: 73%;
+    left: 10%;
+    visibility: hidden;
+    float: left;
+}
+
+
+/* .chat_history_click {
+    visibility: visible;
+} */
+
+.chat_headshot {
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 100%;
+    position: relative;
+    top: 18px;
+    left: 5%;
+    float: left;
+}
+
+#LC_title {
+    padding: 10px;
+    text-align: center;
+}
+
+.chat_content {
+    width: 22%;
+    height: 400px;
+    background-color: rgb(183, 228, 199);
+    border: 1px solid black;
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+    border-radius: 10px;
+    /* visibility: hidden; */
+}
+
+.CCheadshot {
+    height: 25px;
+    float: left;
+}
+
+.CCName {
+    float: left;
+}
+
+.chat_content>div {
+    padding: 10px;
+}
+
+.CChistory {
+    height: 60%;
+    /* position: relative;
+    top: 30px; */
+    margin: 20px 5px 10px 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#Input {
+    width: 80%;
+    float: left;
+}
+
+#Enter {
+    width: 18%;
+    font-size: 6px;
+}
+
+.CCinput>div {
+    float: left;
+}
+
+.listChat_change {
+    visibility: visible;
+}
+
+
+/* ======================================================= */
+
+.likediv {
+    width: 320px;
+    height: 50px;
+    margin: auto;
+    position: relative;
+    top: -55px;
+    /* right: 2%; */
+}
+
+#unlike>img,
+#like>img {
+    width: 30px;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+#unlike,
+#like {
+    display: inline;
+    width: 1000px;
+    height: 60px;
+    background-color: #95d5b2;
+    border: 2px solid #52B788;
+    border-radius: 30px;
+    margin: 50px;
+    cursor: pointer;
+}
+
+td {
+    padding: 8px 15px;
+    font-size: 20px;
+}
+
+.main_IC {
+    /* position: absolute; */
+    top: 20%;
+    right: 50%;
+}
+
+.another_IC {
+    /* position: relative; */
+    top: 15%;
+    right: 0%;
+}
+
+/* .main_M3 {
+    position: absolute;
+    top: 30%;
+    right: 64%;
+} */
+
+.another_M3 {
+    position: relative;
+    /* top: 15%; */
+    right: -40%;
+}
+
+#ILW_content>div {
+    position: absolute;
+    width: 45%;
+    float: left;
+}
